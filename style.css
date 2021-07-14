@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+button{
+    background-color: #E02C6D;
+    border: none;
+    padding: 15px 25px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    font-size: 16px;
+    
+}
+.button i{
+    margin-left: 5px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #2D25A0;
+    padding-bottom: 70px;
+    
+}
+.banner_item{
+    margin-top: 150px;
+    width: 400px;
+    margin-left: 200px;
+    
+}
+.banner_img img{
+    width: 550px;
+    margin-top: 100px;
+}
+
+/* pleyar sections */
+.playet_bg{
+    background-color: rgb(219, 216, 216);
+}
+.player_album{
+    width:1000px;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-left: 150px;
+    padding-top: 60px;
+    
+}
+.player{
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 15px 15px;
+    
+}
+.photo img{
+   width: 100%;
+}
+/* matchst */
+.match_info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.match_img img{
+    width: 100%;
+}
+.match_detail h1{
+    color: #0A0826;
+}
+/* football    */
+.foodball img{
+    width: 450px;
+    margin-left: 30%;
+    margin-top: 150px;
+}
+/* social icon */
+.icon_img{
+    margin-left: 550px;
+}
+.icon_img img{
+    width: 40px;
+    margin-right: 10px;
+    
+}
+/* copyright */
+.copyright{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+    
